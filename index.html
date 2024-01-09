@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Thriving Springs</title>
+</head>
+
+<body>
+
+  <!-- top shadowing box -->
+  <div class="top-box">
+
+  </div>
+  <!-- Main part started from here -->
+  <div class="main-container">
+    <div class="title">
+      <p class="title is-4" style="color: #13052bba;">Corporate Conflicts of Interest</p>
+    </div>
+
+    <!-- Nav part -->
+    <div class="nav-bar">
+      <p class="subtitle is-6 has-text-weight-medium has-text-underlined report-color">
+        Report
+      </p>
+      <p class="subtitle is-6 progress-color">User progress</p>
+    </div>
+    <hr class="report-hr" />
+
+    <!-- CARDS PART -->
+    <div class="cards-container ">
+
+      <!-- Left cards part -->
+      <div class="left-section">
+
+        <div class="left-container-card card-with-border-right">
+          <i class="fas fa-user-check fa-2x" style="font-size: 0.9em; color: #132a9e"></i>
+          <p style="font-size: 1rem; font-weight: 800">1.1K</p>
+          <p style="font-size: 0.7rem; font-weight: 500">Total Enrollments</p>
+
+        </div>
+
+        <div class="left-container-card card-with-border-right">
+          <i class="material-icons" style="font-size: 1.1em; color: orange">alarm_add</i>
+          <p style="font-size: 1rem; font-weight: 800">15</p>
+          <p style="font-size: 0.7rem; font-weight: 500">Yet to Start</p>
+        </div>
+        <div class="left-container-card card-with-border-right">
+          <i class="material-icons" style="font-size: 1.1em; color: rgb(248, 42, 56)">hourglass_empty</i>
+          <p style="font-size: 1rem; font-weight: 800">50</p>
+          <p style="font-size: 0.7rem; font-weight: 500">In-Progress</p>
+        </div>
+        <div class="left-container-card ">
+          <i class="material-icons" style="font-size: 1.1em; color: #1aac46">check_circle</i>
+          <p style="font-size: 1rem; font-weight: 800">108</p>
+          <p style="font-size: 0.7rem; font-weight: 500">Completed</p>
+        </div>
+      </div>
+
+    <!-- Right Cards Part -->
+      <div class="right-section">
+        <div class="right-container-card card-with-border-right">
+          <i class="material-icons" style="font-size: 1.1em; color: #ea58b9">equalizer</i>
+          <p style="font-size: 1rem; font-weight: 800">75%</p>
+          <p style="font-size: 0.7rem; font-weight: 500">Average Progress</p>
+        </div>
+        <div class="right-container-card">
+          <i class="material-icons" style="font-size: 1.1em; color: #3b93db">access_time</i>
+          <p style="font-size: 1rem; font-weight: 800">42 MIN</p>
+          <p style="font-size: 0.7rem; font-weight: 500">
+            Average Spend Time
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TABLE AND BAR CHART CONTAINER -->
+    <div class="department-container">
+
+      <!-- Table part -->
+      <div class="table-container">
+        <div class="table-nav">
+          <p style="font-size: 1rem; font-weight: 500">Department</p>
+
+          <!-- Drop down -->
+          <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button" style="height: 30px;" aria-haspopup="true" aria-controls="dropdown-menu3">
+                <span style="font-size: 0.8rem; font-weight: 500">Bar Chart</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-item">
+                  SALES
+                </a>
+                <a href="#" class="dropdown-item">
+                  MARKETING
+                </a>
+                <a href="#" class="dropdown-item">
+                  DESIGN
+                </a>
+                <a href="#" class="dropdown-item">
+                  HR
+                </a>
+                <a href="#" class="dropdown-item">
+                  LEGAL
+                </a>
+                <a href="#" class="dropdown-item">
+                  IT
+                </a>
+                <a href="#" class="dropdown-item">
+                  OPS
+                </a>
+
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">
+                  More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- table information -->
+        <div class="table-info">
+          <table>
+            <thead style="background-color: rgb(242, 244, 247);">
+              <tr>
+                <th style="width: 70%;">Department</th>
+                <th style="width: 30%;">Completion %</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Department A</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Department B</td>
+                <td>57</td>
+              </tr>
+              <tr>
+                <td>Department C</td>
+                <td>83</td>
+              </tr>
+              <tr>
+                <td>Department D</td>
+                <td>78</td>
+              </tr>
+              <tr>
+                <td>Department E</td>
+                <td>92</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+
+        </div>
+
+
+      </div>
+
+      <!-- BAR CHART CONTAINER -->
+      <div class="perfomance-container">
+        <div class="perfomance-nav">
+          <p style="font-size: 1rem; font-weight: 500">Department Perfomance Over Time</p>
+
+          <!-- Drop down -->
+          <div class="dropdown">
+            <div class="dropdown-trigger">
+              <button class="button" style="height: 30px;" aria-haspopup="true" aria-controls="dropdown-menu3">
+                <span style="font-size: 0.8rem; font-weight: 500">By Percentage</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+              <div class="dropdown-content">
+                <a href="#" class="dropdown-item">
+                  50
+                </a>
+                <a href="#" class="dropdown-item">
+                  57
+                </a>
+                <a href="#" class="dropdown-item">
+                  83
+                </a>
+                <a href="#" class="dropdown-item">
+                  78
+                </a>
+                <a href="#" class="dropdown-item">
+                  92
+                </a>
+                <a href="#" class="dropdown-item">
+                  23
+                </a>
+                <a href="#" class="dropdown-item">
+                  43
+                </a>
+
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">
+                  More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="perfomance-hr" />
+
+        <!-- Bar chart -->
+        <div class="chart">
+          <canvas id="myChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+          const ctx = document.getElementById('myChart');
+
+          new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['SALES', 'MARKETING', 'DESIGN', 'HR', 'LEGAL', 'IT', 'OPS'],
+              datasets: [{
+              
+                data: [50, 57, 83, 78, 92, 23, 43],
+                borderWidth: 1,
+                backgroundColor: [
+                  'rgba(255, 165, 0, 0.7)',   // Orange
+                  'rgba(54, 162, 235, 0.7)',  // Blue
+                  'rgba(75, 192, 192, 0.7)',  // Green
+                  'rgba(255, 99, 132, 0.7)',   // Red
+                  'rgba(54, 162, 235, 0.7)',  // Blue
+                  'rgba(255, 165, 0, 0.7)',   // Orange
+                  'rgba(75, 192, 192, 0.7)',  // Green
+
+
+
+                ],
+                barPercentage: 0.1, //  bar width
+                categoryPercentage: 0.8 //  gap between bars
+              }]
+            },
+            options: {
+              scales: {
+                y: {
+                  beginAtZero: true
+                }
+              },
+              plugins: {
+                legend: {
+                  display: false
+                }
+              },
+              layout: {
+                padding: {
+                  left: 10,
+                  right: 10,
+                  top: 10,
+                  bottom: 10
+                }
+              },
+              maintainAspectRatio: false,
+              width: 750
+            }
+          });
+
+        </script>
+
+      </div>
+    </div>
+</body>
+
+</html>
